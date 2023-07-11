@@ -44,5 +44,6 @@ This is a simple list that contains all the locales that the app supports. For t
 
 1. Add more languages: The localization setup allows easy addition of more languages.
 2. Optimize loading of language files: Currently, the language JSON files are loaded each time a language is switched. Caching or preloading them could improve performance.
+3. Use state management for a larger app: For a larger app, it would be better to use a state management solution like Provider or BLoC to handle the locale state. Since the locale state would be used by multiple widgets it would be easier to manage it with a state management solution instead of passing it around as a parameter.
 
 That's it! A simple localization demo in Flutter.
